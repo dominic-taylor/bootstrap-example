@@ -1,0 +1,71 @@
+// Import Fonts - can also be done in html head 
+@import url('https://fonts.googleapis.com/css?family=Raleway:400:600|Source+Sans+Pro');
+
+// download the fonts
+
+$blue: #94c3de;
+$black: #333533;
+$off-white: #f4f4f8;
+$gray: #b9b9b9;
+$light-blue: #c6dfed;
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+
+
+
+table { 
+
+	td {
+		strong {
+			font-family: 'Raleway', sans-serif;
+			font-weight: 600;
+		}
+	}
+}
+
+.table-striped {		
+	> tbody{
+
+		> tr:nth-child(odd) {
+			background-color: $off-white; 
+			background-color: $light-blue;
+		}
+
+	}	
+}
+
+
+
+.swatch-box {
+	position: absolute;
+	top: 300px;
+}
+.swatch {
+
+	height: 100px;
+	width: 100px;
+}
+
+.blue{
+	background-color: $blue;
+} 
+.black{
+	background-color: $black;
+} 
+.off-white{
+	background-color: $off-white;
+} 
+.gray{
+	background-color: $gray;
+} 
+.light-blue{
+	background-color: $light-blue;
+}
