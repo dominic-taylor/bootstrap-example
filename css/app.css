@@ -14,25 +14,3 @@ table td strong {
   background-color: #f4f4f8;
   background-color: #c6dfed; }
 
-.swatch-box {
-  position: absolute;
-  top: 300px; }
-
-.swatch {
-  height: 100px;
-  width: 100px; }
-
-.blue {
-  background-color: #94c3de; }
-
-.black {
-  background-color: #333533; }
-
-.off-white {
-  background-color: #f4f4f8; }
-
-.gray {
-  background-color: #b9b9b9; }
-
-.light-blue {
-  background-color: #c6dfed; }
