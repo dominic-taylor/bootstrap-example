@@ -8,8 +8,31 @@ h1, h2, h3, h4, h5, h6 {
 
 table td strong {
   font-family: 'Raleway', sans-serif;
-  font-weight: 600; }
+  font-weight: 600;
+  font-weight: 400; }
 
 .table-striped > tbody > tr:nth-child(odd) {
   background-color: #f4f4f8;
   background-color: #c6dfed; }
+
+.navbar {
+  height: 100px; }
+
+.navbar-brand {
+  padding: 0; }
+  .navbar-brand img {
+    max-height: 100%;
+    max-height: 100px; }
+
+.navbar-nav > li > a {
+  padding-bottom: 0;
+  padding-top: 0;
+  line-height: 100px; }
+
+.navbar-form {
+  line-height: 100px;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.whiteBackground {
+  background-color: #fff; }
